@@ -1,0 +1,19 @@
+{
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "devDependencies": {
+        "@ffmpeg/ffmpeg": "^0.12.6",
+        "@ffmpeg/util": "^0.12.1",
+        "nuxt": "^3.9.0",
+        "vue": "^3.4.5",
+        "vue-router": "^4.2.5"
+    }
+}
